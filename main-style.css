@@ -16,15 +16,31 @@ body {
     background-position: -25% 100%;
     background-size: 100%; */
     background-repeat: no-repeat;
+    overflow: hidden;
 }
-.bolita {
-    display:block;
+.top-background {
+    top: -25rem;
+    left: -24rem;
     background-image: url(images/bg-pattern-top.svg);
+    
+}
+
+.bottom-background {
+    bottom: -19rem;
+    right: -25rem;
+    background-image: url(images/bg-pattern-bottom.svg)
+}
+
+.top-background,
+.bottom-background {
+    display:block;
     background-size: cover;
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 40rem;
+    z-index: -1;
 }
+
 .container {
     display: flex;
     align-items: center;
