@@ -96,3 +96,20 @@ span {
     border: 5px solid #fff;
     border-radius: 100%;
 }
+
+@media (min-width: 1440px) {
+    .top-background,
+    .bottom-background{
+        height: 70rem;
+        width: 70rem;
+    }
+    .top-background{
+        top:-65%;
+    }
+
+    .bottom-background {
+        bottom: -75%;
+    }
+
+    
+}
