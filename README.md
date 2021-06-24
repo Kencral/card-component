@@ -20,7 +20,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [My code](https://github.com/Kencral/3-column-preview-card-component)
-- Live Site URL: [Live](https://kencral/github.io/card-component)
+- Live Site URL: [Live](https://kencral.github.io/card-component)
 
 ## My process
 
